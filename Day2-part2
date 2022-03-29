@@ -1,0 +1,32 @@
+
+import java.util.*;
+
+public class Program {
+	public static void main(String[] args) {
+		int dep=0;
+		int dis=0;
+		int aim=0;
+		int t=0;
+		Scanner sc=new Scanner(System.in);
+		String x="";
+		int val=0;
+		
+	while(t==0){
+		x=sc.next();
+		val=sc.nextInt();
+		if (x.equals("up")){
+			aim=aim-val;
+			System.out.println("---position: "+dis+" ---depth: "+dep);
+			}
+		else if(x.equals("forward")){
+			dis=dis+val;
+			dep=dep+(val*aim);
+			System.out.println("---position: "+dis+" ---depth: "+dep);
+			}
+		else if(x.equals("down")){
+			aim=aim+val;
+			System.out.println("---position: "+dis+" ---depth: "+dep);
+			}
+		}
+   }
+	}
