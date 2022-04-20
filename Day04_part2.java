@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Day4_part2 {
+public class Day04_part2 {
 // method to put chosen number as -10 in all tablets
 	public static void pesca(LinkedList<int[][]> x, int y){
 		for (int[][] i: x){
