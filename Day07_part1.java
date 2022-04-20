@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Day7_part1 {
+public class Day07_part1 {
 	public static void main(String[] args) {
 		int ris =0;
 		int tot =1000000;
