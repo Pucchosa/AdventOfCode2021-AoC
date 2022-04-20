@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Day8_part2 {
+public class Day08_part2 {
 	
 // method to compare 2 strings and find anagrams
 	public static boolean isAnagram(String str1, String str2) {  
