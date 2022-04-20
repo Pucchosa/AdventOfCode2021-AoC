@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Day3_part2 {
+public class Day03_part2 {
 	
 // method to find most common (0 or 1)
 	public static int media(ArrayList<int[]> x, int y){
