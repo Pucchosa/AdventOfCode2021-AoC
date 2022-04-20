@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Day6_part2 {
+public class Day06_part2 {
 	public static void main(String[] args) {
 		long x=1;
 		int t=0;
