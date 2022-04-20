@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Day2_both {
+public class Day02_both {
 	public static void main(String[] args) {
 		int dep=0;
 		int dis=0;
