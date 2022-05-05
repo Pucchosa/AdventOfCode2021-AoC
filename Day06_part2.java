@@ -4,7 +4,7 @@ public class Day06_part2 {
 	public static void main(String[] args) {
 		long x=1;
 		int t=0;
-		int rip=256;
+		int days=256;
 		LinkedList<Integer> lantern=new LinkedList<Integer>();
 		Scanner sc=new Scanner(System.in);
 		long[] groupA={1,0};
@@ -64,7 +64,7 @@ public class Day06_part2 {
 		
 // FACCIO PASSARE GIORNI
 
-		while (t<rip){
+		while (t<days){
 			for (long[] u:pool){
 				u[0]=u[0]-x;
 				if (u[0]<0){
@@ -99,6 +99,6 @@ public class Day06_part2 {
 			tot=tot+u[1];
 		}
 		tot=tot+babyB[1]+babyA[1];
-		System.out.println("Nel Giorno "+t+" ci sono "+tot+" pesci-lanterna.");
+		System.out.println("After day "+t+" we have "+tot+" lanternfish.");
 	}
 }
