@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Day11_part2 {
 	public static void main(String[] args) {
-		Obb obj=new Obb();
+		Day11_obj obj=new Day11_obj();
 		int gg=0;
 		int giri=0;
 		int rip=1000;
