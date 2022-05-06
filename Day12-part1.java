@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Prog1 {
+public class Day12-part1 {
 // method to check for double
 	public static boolean doppio(String x,ArrayList<String> c){
 		boolean dop=false;
