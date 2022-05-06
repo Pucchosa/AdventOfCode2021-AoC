@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Prog {
+public class Day13_both {
 	public static void main(String[] args) {
 		int t=0;
 		int r=0;
