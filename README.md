@@ -8,4 +8,4 @@ I'll _clean up_ my code and put it here, if someone at my same java level can be
 ###### (I'm also learning how GitHub works...)
 
 
-Just run the main, paste the _ puzzle input_, write "**stop**" in the next line.
+Just run the main, paste the _puzzle input_, write "**stop**" in the next line.
